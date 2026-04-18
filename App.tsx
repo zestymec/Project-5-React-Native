@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View , Image , } from 'react-native'
+import type { PropsWithChildren } from 'react';
 import React from 'react'
 export const DiceImages = {
   one: require('./Diceone.jpg'),
@@ -8,7 +9,12 @@ export const DiceImages = {
   five: require('./Dicefive.jpg'),
   six: require('./Dicesix.jpg'),
 };
-const App = () => {
+type diceprops = PropsWithChildren<
+{
+  imageUrl: ImageSourcePropType
+}>
+
+function App() : JSX.Element  {
   return (
     <View>
       <Text>App</Text>
