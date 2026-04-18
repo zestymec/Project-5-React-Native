@@ -1,6 +1,13 @@
 import { StyleSheet, Text, View , Image , } from 'react-native'
 import React from 'react'
-
+export const DiceImages = {
+  one: require('./Diceone.jpg'),
+  two: require('./Dicetwo.jpg'),
+  three: require('./Dicethree.jpg'),
+  four: require('./Dicefour.jpg'),
+  five: require('./Dicefive.jpg'),
+  six: require('./Dicesix.jpg'),
+};
 const App = () => {
   return (
     <View>
