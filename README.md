@@ -1,30 +1,30 @@
-# 🎲 Dice Roller - React Native App
+# 🎲 Dice Roller Application
 
-Namaste! Main hoon Umer, aur ye mera ek simple magar functional **Dice Roller** application hai jo maine React Native aur TypeScript ka istemal karte hue banaya hai.
+A streamlined, functional mobile application built with **React Native** and **TypeScript**. This project demonstrates core mobile development concepts, specifically focusing on state-driven UI updates and component-based architecture.
 
 ## 🚀 Overview
 
-Ye project React Native ki core fundamentals ko samajhne ke liye banaya gaya hai, khaas kar:
-- **State Management:** `useState` hook ka sahi istemal.
-- **Component Architecture:** Logic aur UI ko alag-alag rakhna.
-- **Asset Handling:** Local images ko efficiently render karna.
+The Dice Roller app provides an interactive interface where users can generate a random dice roll. This project serves as a practical implementation of **React Hooks** and **Asset Management** within a mobile environment.
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Implementation
 
-- **Framework:** React Native (CLI)
-- **Language:** TypeScript
-- **Styling:** StyleSheet API
+- **State Management:** Utilizes the `useState` hook to manage real-time UI transitions between dice faces.
+- **Component Architecture:** Designed with a clear separation of concerns, distinguishing between the display component (`Dice`) and the logic controller (`App`).
+- **Logic:** Implemented a randomized integer generator to map numbers 1 through 6 to specific local image assets.
+- **Styling:** Leveraged the `StyleSheet` API to ensure a responsive and aesthetically pleasing layout.
 
-## 🧩 Key Features
+## 🧩 Key Learning Outcomes
 
-- **Random Logic:** Math logic ka use karke har bar ek naya dice face generate hota hai.
-- **Clean UI:** Ek minimalist design jo user experience par focus karta hai.
-- **Error Handled:** Recursive loops aur memory leaks se pakka bachao.
+1. **Memory Management:** Resolved infinite recursion issues to ensure optimal performance.
+2. **Path Resolution:** Correctly handled relative file paths within the React Native bundler.
+3. **TypeScript Integration:** Applied strong typing to props and image sources for better code reliability.
 
-## 📁 Project Structure
+## 📂 Structure
 
-```text
-.
-├── App.tsx           # Main logic aur state management
-├── dice/             # Sare dice images ka folder
-└── README.md         # Project documentation
+- `App.tsx`: The main entry point containing the application state and roll logic.
+- `/dice`: A dedicated directory for local graphical assets.
+- `styles`: Modular styling for a minimalist user experience.
+
+---
+**Developed with precision by Umer**
+*Software Engineer & Application Developer*
