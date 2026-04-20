@@ -1,79 +1,30 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🎲 Dice Roller Application
 
-# Getting Started
+A streamlined, functional mobile application built with **React Native** and **TypeScript**. This project demonstrates core mobile development concepts, specifically focusing on state-driven UI updates and component-based architecture.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## 🚀 Overview
 
-## Step 1: Start the Metro Server
+The Dice Roller app provides an interactive interface where users can generate a random dice roll. This project serves as a practical implementation of **React Hooks** and **Asset Management** within a mobile environment.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## 🛠️ Technical Implementation
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **State Management:** Utilizes the `useState` hook to manage real-time UI transitions between dice faces.
+- **Component Architecture:** Designed with a clear separation of concerns, distinguishing between the display component (`Dice`) and the logic controller (`App`).
+- **Logic:** Implemented a randomized integer generator to map numbers 1 through 6 to specific local image assets.
+- **Styling:** Leveraged the `StyleSheet` API to ensure a responsive and aesthetically pleasing layout.
 
-```bash
-# using npm
-npm start
+## 🧩 Key Learning Outcomes
 
-# OR using Yarn
-yarn start
-```
+1. **Memory Management:** Resolved infinite recursion issues to ensure optimal performance.
+2. **Path Resolution:** Correctly handled relative file paths within the React Native bundler.
+3. **TypeScript Integration:** Applied strong typing to props and image sources for better code reliability.
 
-## Step 2: Start your Application
+## 📂 Structure
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- `App.tsx`: The main entry point containing the application state and roll logic.
+- `/dice`: A dedicated directory for local graphical assets.
+- `styles`: Modular styling for a minimalist user experience.
 
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
+**Developed with precision by Umer**
+*Software Engineer & Application Developer*
